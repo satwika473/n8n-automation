@@ -6,7 +6,7 @@ function CloudinaryUploadForm() {
 
   const handleImageChange = (e) => {
     setImage(e.target.files[0]);
-  };
+  }; //added comments
 
   const handleSubmit = async (e) => {
     e.preventDefault();
